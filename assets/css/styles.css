@@ -29,8 +29,9 @@ body {
 }
 
 .logo {
-    width: 180px;
+    width: 220px;
     cursor: pointer;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.45));
 }
 
 .nav_menu ul li {
