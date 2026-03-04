@@ -47,6 +47,24 @@
             color: #e69500;
         }
 
+        .chat-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            background: #fda400;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .chat-btn:hover {
+            background: #e69500;
+        }
+
         .language-switch {
             background: none;
             border: 1px solid #e5e5e5;
@@ -263,7 +281,9 @@
 <body>
     <div class="container">
         <div class="header-bar">
-            <a href="index.html" class="back-link" data-en="back" data-fr="retour">&larr; Back</a>
+            <a href="index.html" class="back-link" data-en="back" data-fr="retour">← Back</a>
+            <a href="https://cal.com/wasscodeur/chatting" class="chat-btn" target="_blank"><i
+                    class="fas fa-comments"></i> Chat</a>
             <button class="language-switch" onclick="toggleLanguage()" id="langBtn">FR</button>
         </div>
 
