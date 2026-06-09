@@ -53,11 +53,21 @@
             gap: 20px;
         }
 
+
+
+
         .logo {
             height: 100px;
             width: auto;
             display: block;
+            filter: brightness(0) saturate(100%) invert(38%) sepia(0%) saturate(0%) hue-rotate(0deg);
 
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+            filter: brightness(0) saturate(100%) invert(63%) sepia(91%) saturate(747%) hue-rotate(1deg);
         }
 
         .nav-links {
